@@ -8,6 +8,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 
+[tool.poetry.scripts]
+gnihon = "gnihon:main"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.5"
 
 [build-system]
 requires = ["poetry-core"]
